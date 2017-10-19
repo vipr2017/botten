@@ -16,5 +16,6 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
       Vitus
   </author>
+  <plugin name="org.apache.cordova.media" spec="0.2.8" source="pgb" />
   <icon src="img/bones.png" />
 </widget>

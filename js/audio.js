@@ -16,6 +16,9 @@ as = function(status) {
 
 play = function(file, loop) {
 
+	alert("play");
+
+	try {
 	if(loop) {
 	
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.appVersion) ) {
@@ -59,6 +62,8 @@ play = function(file, loop) {
 	}
 	
 	audio.play();	
+
+	} catch(e) { alert(e); }
 	return(audio);
 }
 
